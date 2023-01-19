@@ -4,7 +4,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.ActiveProfiles;
 
 @SpringBootTest
-@ActiveProfiles({"jpa", "hsqldb"})
+@ActiveProfiles({ "jpa", "mysql" })
 class UserServiceJpaTests extends AbstractUserServiceTests {
 
 }
